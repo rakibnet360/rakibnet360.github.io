@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <script src='//whephiwums.com/vignette.min.js' data-zone='8846012' data-sdk='show_8846012'></script>
 <script type='text/javascript' src='//pl25239108.profitablecpmrate.com/32/9d/90/329d9066b0fef9d52415531037f59d82.js'></script>
  
     <meta charset="UTF-8">
@@ -175,7 +174,7 @@
         const ADMIN_USER_ID = 1647354354;
         const BOT_TOKEN = "7693367299:AAHD5K-5CRP0XCJnxzb49yNLOSXxVxseJtE";
         let watchedAdsCount = 10;
-        let earnedPoints = 0.010;
+        let earnedPoints = 0.50;
         let autoAdInterval;
  
         // Simulate user name from Telegram User ID (replace with actual logic to get user info)
@@ -197,7 +196,7 @@
                     // When the ad is shown, we add points
                     watchedAdsCount++;
                     document.getElementById('watched-ads').textContent = watchedAdsCount;
-                    earnedPoints += 0.010; // Add 0.010 points per ad watched
+                    earnedPoints += 0.50; // Add 0.50 points per ad watched
                     document.getElementById('earned-points').textContent = earnedPoints.toFixed(2);
                     localStorage.setItem('watchedAdsCount', watchedAdsCount);
                     localStorage.setItem('earnedPoints', earnedPoints.toFixed(2));
